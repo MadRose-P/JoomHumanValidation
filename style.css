@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  max-width: 900px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.instruction {
+  background: #f5f7fa;
+  padding: 12px;
+  border-left: 4px solid #4a90e2;
+}
+
+.text-box {
+  background: #fafafa;
+  padding: 15px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 15px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 8px 14px;
+  margin-right: 10px;
+  font-size: 14px;
+}

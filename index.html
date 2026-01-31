@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <title>Educational Manipulation Benchmark — Human Validation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h2>教育场景情感操控（PUA）人工校验</h2>
+
+<div class="instruction">
+  <p>
+    请你<strong>站在对话中学生的第一人称视角</strong>，
+    判断你在多大程度上意识到了话语中可能存在的对你不利的操控或不公平对待；或认为这是健康、正常的。
+  </p>
+</div>
+
+<div id="progress"></div>
+<hr />
+
+<div id="task"></div>
+
+<div class="buttons">
+  <button onclick="next()">下一题</button>
+  <button onclick="exportResult()">导出标注结果</button>
+  <button onclick="clearProgress()">清除进度（重新开始）</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
